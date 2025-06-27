@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Display RobCo-style banner on interactive shells
 if [ -n "$PS1" ]; then
@@ -7,5 +7,5 @@ if [ -n "$PS1" ]; then
 fi
 
 # Green-on-black style prompt
-export PS1="\[\e[0;32m\][\u@ROBCO \W]\\$ \[\e[0m\]"
+export PS1="\[\e[0;32m\][\u@ROBCO \W]\$ \[\e[0m\]"
 
